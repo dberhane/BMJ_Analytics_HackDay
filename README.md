@@ -1,24 +1,10 @@
-## analytics.usa.gov
+## analytics.bmj.com
 
-A project to publish website analytics for the US federal government.
+A project to publish website analytics for BMJ websites, thanks to great work by the US federal government.
 
-For a detailed description of how the site works, read [18F's blog post on analytics.usa.gov](https://18f.gsa.gov/2015/03/19/how-we-built-analytics-usa-gov/).
+For a detailed description of how the site works, read below.
 
-Other organizations who have reused this project for their analytics dashboard:
-* [The City of Philadelphia, PA](http://analytics.phila.gov/)
-* [The City of Boulder, CO](https://bouldercolorado.gov/stats)
-* [Tennessee Department of Environment and Conservation](http://analytics.tdec.tn.gov/)
-* [The City of Sacramento, CA](http://analytics.cityofsacramento.org/)
-* [The City of Anchorage, AK](http://analytics.muni.org/)
-* [The City of Santa Monica, CA](http://analytics.smgov.net/)
-* [Douglas County, NE](http://analytics.douglascounty-ne.gov/)
-* [Washington State University](https://analytics.wsu.edu/)
-* [U.S. Department of Education](http://www2.ed.gov/analytics)
-* [The States of Jersey](http://webanalytics.gov.je/)
-* [The City of Los Angeles](http://webanalytics.lacity.org/)
-
-
-[This blog post details their implementations and lessons learned](https://18f.gsa.gov/2016/01/05/tips-for-adapting-analytics-usa-gov/).
+[This blog post details their implementations and lessons learned](#).
 
 
 ### Setup
@@ -34,7 +20,7 @@ bundle install
 [`analytics-reporter`](https://github.com/18F/analytics-reporter) is the code that powers the analytics dashboard.
 Please clone the `analytics-reporter` next to a local copy of this github repository.
 
-### Adding Additional Agencies
+### Adding Additional Agencies (AKA Product Websites)
 0. Ensure that data is being collected for a specific agency's Google Analytics ID. Visit [18F's analytics-reporter](https://github.com/18F/analytics-reporter) for more information. Save the url path for the data collection path.
 0. Create a new html file in the `_agencies` directory. The name of the file will be the url path.
 
