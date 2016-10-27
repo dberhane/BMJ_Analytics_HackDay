@@ -37,12 +37,13 @@ title: "analytics.bmj.gov | BMJ's web traffic."
 description: "Official data on web traffic to selected BMJ websites. Published by the BMJ Tech."
 
 # Site's own URL
-url: https://analytics.bmj.com
+url: http://localhost:4000
 
 # Default dropdown title, will not appear if there are no sub-pages
 dropdown_title: All Participating Websites
 
 # Default data url
+#data_url: https://s3-eu-west-1.amazonaws.com/bmj-analytics-dashboard/data
 data_url: https://analytics.usa.gov/data/live
 
 # GitHub information
@@ -50,7 +51,7 @@ org_name: BMJ-Ltd
 repo_name: BMJ_Analytics_HackDay
 
 # twitter information
-twitter: usgsa
+twitter: bmj
 
 sass:
   sass_dir: sass
